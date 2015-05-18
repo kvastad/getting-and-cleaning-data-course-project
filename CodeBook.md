@@ -6,6 +6,15 @@
 "ind_id" number corresponding to a unique individual.
 
 "activity_name" character corresponding to performed activity.
+Including the following activities: 
+
+"WALKING"
+"WALKING_UPSTAIRS"
+"WALKING_DOWNSTAIRS"
+"SITTING"
+"STANDING"
+"LAYING"
+
 
 ### Measurement variables
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
@@ -105,6 +114,7 @@ From this [1] source only a subset was used, where the characters mean or std wa
 ## Transformations
 The in table dat4.txt all variables from [1] were filtered based on *unique individual* and *performed activity*.
 The average from each *measurement variable*, where the characters **mean** or **std** was included in the variable name is summarized in table dat4.txt.
+Before you run the run_analysis.R script, first set working directory to UCI HAR Dataset[1] and then put the run_analysis.R script within the UCI HAR Dataset directory.
 
 ## Source
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
