@@ -115,6 +115,7 @@ From this [1] source only a subset was used, where the characters mean or std wa
 The in table dat4.txt all variables from [1] were filtered based on *unique individual* and *performed activity*.
 The average from each *measurement variable*, where the characters **mean** or **std** was included in the variable name is summarized in table dat4.txt.
 Before you run the run_analysis.R script, first set working directory to UCI HAR Dataset[1] and then put the run_analysis.R script within the UCI HAR Dataset directory.
+To run the run_analysis.R script the dplyr R package needs to be installed.
 
 ## Source
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
