@@ -3,9 +3,9 @@
 ## Variables
 
 ### Individuals and Activities variables
-"ind_id" number corresponding to a unique individual.
+**"ind_id"** number corresponding to a unique individual.
 
-"activity_name" character corresponding to performed activity.
+**"activity_name"** character corresponding to performed activity.
 Including the following activities: 
 
 "WALKING"
@@ -22,6 +22,7 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 The variables used here come from the following source: [1]. 
 From this [1] source only a subset was used, where the characters mean or std was included in the variable name, see below.
+**Units of the summarized second data set**: all units are numeric and names with prefix 't' to denote time and prefix 'f' to indicate frequency domain signals.
 
 "tBodyAcc.mean...X"
 "tBodyAcc.mean...Y"
@@ -112,9 +113,9 @@ From this [1] source only a subset was used, where the characters mean or std wa
 
 
 ## Transformations
-The in table dat4.txt all variables from [1] were filtered based on *unique individual* and *performed activity*.
-The average from each *measurement variable*, where the characters **mean** or **std** was included in the variable name is summarized in table dat4.txt.
-Before you run the run_analysis.R script, first set working directory to UCI HAR Dataset[1] and then put the run_analysis.R script within the UCI HAR Dataset directory.
+In table dat4.txt produced by the script all variables from [1] were filtered based on *unique individual* and *performed activity*.
+**Variables and summaries calculated** The average from each *measurement variable*, where the characters *mean* or *std* was included in the variable name is summarized in table dat4.txt.
+**Relevant information before running script** Before you run the run_analysis.R script, first set working directory to UCI HAR Dataset[1] and then put the run_analysis.R script within the UCI HAR Dataset directory.
 To run the run_analysis.R script the dplyr R package needs to be installed.
 
 ## Source
