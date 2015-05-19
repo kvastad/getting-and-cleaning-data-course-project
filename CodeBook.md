@@ -23,7 +23,7 @@ These signals were used to estimate variables of the feature vector for each pat
 The variables used here come from the following source: [1]. 
 From this [1] source only a subset was used, where the characters mean or std was included in the variable name, see below.
 
-**Units of the summarized second data set**: all units are numeric and names with prefix 't' to denote time and prefix 'f' to indicate frequency domain signals.
+**Units of the summarized second data set**: all units are numeric and names with prefix 't' to denote time, prefix 'f' to indicate frequency domain signals and prefix 'angle' to indicate degrees between to vectors.
 
 "tBodyAcc.mean...X"
 "tBodyAcc.mean...Y"
